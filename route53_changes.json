@@ -39,6 +39,17 @@
           {"Value": "dt1900.github.io."}
         ]
       }
+    },
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "_github-pages-challenge-dt1900.dan-thompson.net.",
+        "Type": "TXT",
+        "TTL": 3600,
+        "ResourceRecords": [
+          {"Value": "\"ccbc531e03231496364a7b5189302b\""}
+        ]
+      }
     }
   ]
 }
